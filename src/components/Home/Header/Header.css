@@ -1,0 +1,56 @@
+.header-container {
+  margin-bottom: 65px;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.171);
+}
+
+.web-title {
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.secondary-color {
+  color: #fc5b62;
+}
+
+.avatar-img {
+  height: 43px;
+  width: 43px;
+  margin-right: 10px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.login-btn {
+  background-color: #fc5b62;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: #5e78b8;
+}
+
+.logout-btn {
+  background-color: #fc5b62;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logout-btn:hover {
+  color: white;
+  background-color: #5e78b8;
+}

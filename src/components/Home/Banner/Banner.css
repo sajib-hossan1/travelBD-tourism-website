@@ -1,0 +1,48 @@
+.banner-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.105), rgba(0, 0, 0, 0.105)),
+    url(../../../images/banner1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-inner h1 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.banner-inner h5 {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.banner-inner h2 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.booking-btn {
+  background-color: #fc5b62;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.booking-btn:hover {
+  background-color: #5e78b8;
+  color: white;
+}
