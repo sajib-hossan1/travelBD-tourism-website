@@ -1,0 +1,40 @@
+.detail-service-container {
+  margin-top: 80px;
+}
+
+.place-detail {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.service-details {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  margin: 20px 3%;
+  padding: 10px;
+}
+
+.service-details img {
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.booking-btn {
+  background-color: #fc5b62;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.booking-btn:hover {
+  color: white;
+  background-color: #5e78b8;
+}

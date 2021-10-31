@@ -17,12 +17,11 @@ const Header = () => {
                         <Nav className="ms-5">
                             <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                             <Nav.Link as={HashLink} to="/home#destinations">Destinations</Nav.Link>
-                            <Nav.Link as={HashLink} to="/home#testimonials">Testimonials</Nav.Link>
-                            <Nav.Link as={HashLink} to="/about">About Us</Nav.Link>
+                            <Nav.Link as={HashLink} to="/aboutUs">About Us</Nav.Link>
                             {
                                 user.email && <NavDropdown title="Dashboard" id="nav-dropdown">
-                                <NavDropdown.Item eventKey="4.1"><Nav.Link as={HashLink} to="/myOrders">My Orders</Nav.Link></NavDropdown.Item>
-                                <NavDropdown.Item eventKey="4.2"><Nav.Link as={HashLink} to="/manageAllOrders">Manage All Orders</Nav.Link></NavDropdown.Item>
+                                <NavDropdown.Item eventKey="4.1"><Nav.Link as={HashLink} to="/myBooking">My Booking</Nav.Link></NavDropdown.Item>
+                                <NavDropdown.Item eventKey="4.2"><Nav.Link as={HashLink} to="/manageAllBooking">Manage All Booking</Nav.Link></NavDropdown.Item>
                                 <NavDropdown.Item eventKey="4.3"><Nav.Link as={HashLink} to="/addNewDestination">Add New Destination</Nav.Link></NavDropdown.Item>
                               </NavDropdown>
                             }

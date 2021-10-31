@@ -1,0 +1,22 @@
+.add-destination-container {
+  margin-top: 90px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-destination-container h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.add-destination-container form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.add-destination-container form input {
+  padding: 5px 3px;
+  margin-bottom: 20px;
+}

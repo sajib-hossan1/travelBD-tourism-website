@@ -6,19 +6,18 @@ import Header from './components/Home/Header/Header';
 import Home from './components/Home/Home/Home';
 import Login from './components/Home/Login/Login';
 import Register from './components/Home/Register/Register';
-import Testimonials from './components/Home/Testimonials/Testimonials';
-import ManageAllOrders from './components/ManageAllOrders/ManageAllOrders';
-import MyOrders from './components/MyOrders/MyOrders';
 import NotFound from './components/NotFound/NotFound';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import AuthProvider from './context/AuthProvider';
-
-// font-family: 'Noto Sans', sans-serif;
-// font-family: 'Poppins', sans-serif;
-// font-family: 'Raleway', sans-serif;
+import DestinationDetails from './components/DestinationDetails/DestinationDetails';
+import Booking from './components/Booking/Booking';
+import MyBooking from './components/MyBooking/MyBooking';
+import ManageAllBooking from './components/ManageAllBooking/ManageAllBooking';
+import AboutUs from './components/AboutUs/AboutUs';
 
 function App() {
   return (
-    <div className="">
+    <div>
       <AuthProvider>
         <Router>
             <Header></Header>
@@ -29,14 +28,11 @@ function App() {
               <Route path='/home'>
                   <Home></Home>
               </Route>
-              <Route path='/destinations'>
-                  <Home></Home>
-              </Route>
-              <Route path='/tesimonials'>
-                  <Testimonials></Testimonials>
-              </Route>
+              <PrivateRoute path="/destination/:destinationId">
+                    <DestinationDetails></DestinationDetails>
+                </PrivateRoute>
               <Route path='/aboutUs'>
-                  <Home></Home>
+                  <AboutUs></AboutUs>
               </Route>
               <Route path='/login'>
                   <Login></Login>
@@ -44,15 +40,18 @@ function App() {
               <Route path='/register'>
                   <Register></Register>
               </Route>
-              <Route path='/myOrders'>
-                  <MyOrders></MyOrders>
-              </Route>
-              <Route path='/manageAllOrders'>
-                  <ManageAllOrders></ManageAllOrders>
-              </Route>
-              <Route path='/addNewDestination'>
+              <PrivateRoute path='/myBooking'>
+                  <MyBooking></MyBooking>
+              </PrivateRoute>
+              <PrivateRoute path='/manageAllBooking'>
+                  <ManageAllBooking></ManageAllBooking>
+              </PrivateRoute>
+              <PrivateRoute path='/addNewDestination'>
                   <AddNewDestination></AddNewDestination>
-              </Route>
+              </PrivateRoute>
+              <PrivateRoute path='/booking/:bookingId'>
+                  <Booking></Booking>
+              </PrivateRoute>
               <Route path='*'>
                   <NotFound></NotFound>
               </Route>

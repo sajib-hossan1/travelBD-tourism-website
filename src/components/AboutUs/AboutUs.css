@@ -1,0 +1,13 @@
+.about-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.486)),
+    url(../../images/sajek.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  color: white;
+}
