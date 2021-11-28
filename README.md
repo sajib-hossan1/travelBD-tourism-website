@@ -4,7 +4,10 @@ Live web site [Travel-BD](https://travel-bd-35b9a.firebaseapp.com/).
 
 ## Why this web site made for
 
-We have 5+ years of experience.We have extraordinary tourist guide whom show you the scenic beauty of Bangladesh.You will be happy with us and also with oue tourist guides.Please visit our office for more information
+- A tourist or destinations booking website including Firebase Authentication
+- This website has a ‘Dashboard’ functionality for users and admin. Users can be booking a destination and see his/her all bookings in the ‘My Booking’ Dashboard
+- Admin can see all bookings placed by users and take action to delete anyone’s booking. Also, the admin can add a new destination that will appear on the homepage
+
 
 ## This web site made with
 
